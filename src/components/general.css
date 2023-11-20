@@ -1,0 +1,78 @@
+.tarea {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 0.5fr 0.5fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid rgba(201, 189, 189, 0.466);
+    border-radius: 15px;
+  }
+  
+.descripcion {
+  font-size: 18px;
+}
+
+.barra {
+  display: grid;
+  grid-template-columns: 3fr 0.5fr 0.5fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.textarea{
+  height: 70%;
+  border-radius: 15px;
+}
+
+.header{
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.footer {
+  display: grid;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 15px;
+}
+
+.todas{
+  font-weight: bold;
+}
+
+.pendientes{
+  color: green,
+}
+
+.completadas{
+  color: red,
+}
+
+.search{
+  color: lightgray;
+}
+
+.add{
+  color: blue;
+}
+
+.borrar{
+  color: brown;
+}
+
+.completar{
+  color: green ;
+}
+
+.uncheck{
+  color: red;
+}
+
+.check{
+  color: green;
+}
